@@ -19,7 +19,7 @@ public class loginTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		//this is my rough packageasdasd
+		//this is my rough package
 	    
 		Homepage home=new Homepage();
 		LoginPage lp=home.goToLogin(); 
