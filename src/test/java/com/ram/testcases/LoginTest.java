@@ -13,6 +13,7 @@ public class LoginTest extends BaseTest {
 
 	@Test (dataProviderClass=Utilities.class,dataProvider="dp")
 	public void loginTest(Hashtable<String,String> data) throws InterruptedException
+	// using  EGit Login
 	{
 	
 	Homepage home=new Homepage();
