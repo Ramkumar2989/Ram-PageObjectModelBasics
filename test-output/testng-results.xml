@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="4416" started-at="2020-05-13T16:00:40Z" finished-at="2020-05-13T16:00:45Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="4416" started-at="2020-05-13T16:00:40Z" finished-at="2020-05-13T16:00:45Z">
+      <class name="com.ram.testcases.LoginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.ram.testcases.LoginTest@5e1fa5b1]" name="login" duration-ms="3783" started-at="2020-05-13T11:00:40Z" finished-at="2020-05-13T11:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ram.testcases.LoginTest@5e1fa5b1]" name="teardown" is-config="true" duration-ms="774" started-at="2020-05-13T11:00:45Z" finished-at="2020-05-13T11:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ram.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>

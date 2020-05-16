@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="14509" started-at="2020-05-16T17:58:15Z" finished-at="2020-05-16T17:58:30Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="2866" started-at="2020-05-16T17:58:15Z" finished-at="2020-05-16T17:58:18Z">
+      <class name="com.ram.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.ram.testcases.LoginTest@2dca0d64]" name="loginTest" duration-ms="2195" started-at="2020-05-16T12:58:15Z" data-provider="dp" finished-at="2020-05-16T12:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, pwd=pom@2020, username=m.ramkumar89@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ram.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Create Account Test" duration-ms="11608" started-at="2020-05-16T17:58:18Z" finished-at="2020-05-16T17:58:30Z">
+      <class name="com.ram.testcases.LoginTest">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ram.testcases.LoginTest@2dca0d64]" name="teardown" is-config="true" duration-ms="885" started-at="2020-05-16T12:58:30Z" finished-at="2020-05-16T12:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ram.testcases.LoginTest -->
+      <class name="com.ram.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.ram.testcases.CreateAccountTest@33b1c5c5]" name="createAccountTest" duration-ms="11505" started-at="2020-05-16T12:58:18Z" data-provider="dp" finished-at="2020-05-16T12:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountname=Ram}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.ram.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
